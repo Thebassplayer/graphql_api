@@ -1,5 +1,6 @@
 {
   "name": "graphql_api",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/Thebassplayer/graphql_api/issues"
   },
-  "homepage": "https://github.com/Thebassplayer/graphql_api#readme"
+  "homepage": "https://github.com/Thebassplayer/graphql_api#readme",
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "graphql": "^16.6.0"
+  }
 }
